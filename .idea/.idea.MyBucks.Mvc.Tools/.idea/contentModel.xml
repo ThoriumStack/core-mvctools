@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\jeremye\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_MyBucks.Mvc.Tools.-615377536.00" t="ExcludeRecursive" />
+    <e p="E:\Development\MyBucks.Mvc.Tools" t="IncludeFlat">
+      <e p="MyBucks.Mvc.Tools" t="IncludeRecursive">
+        <e p="ApiController.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="MyBucks.Mvc.Tools.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="MyBucks.Mvc.Tools.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="MyBucks.Mvc.Tools.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
