@@ -29,7 +29,7 @@
       "dependencies": {
         "Microsoft.AspNetCore.Mvc.Core": {
           "target": "Package",
-          "version": "[2.1.0, )"
+          "version": "[2.0.3, )"
         },
         "MyBucks.Core.Model": {
           "target": "Package",
