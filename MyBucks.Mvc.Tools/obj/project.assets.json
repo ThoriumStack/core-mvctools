@@ -410,7 +410,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "MyBucks.Core.Model/1.0.9": {
+      "MyBucks.Core.Model/1.0.10": {
         "type": "package",
         "dependencies": {
           "System.ComponentModel.Annotations": "4.4.0"
@@ -422,7 +422,7 @@
           "lib/netstandard2.0/MyBucks.Core.Model.dll": {}
         }
       },
-      "NETStandard.Library/2.0.1": {
+      "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -1437,26 +1437,23 @@
         "runtime.json"
       ]
     },
-    "MyBucks.Core.Model/1.0.9": {
-      "sha512": "Ntsh0yXGUpDI0xlw/vX17XwsxJiqrb87T0YuG9qG+Hc9BBCMwOasOH7cKQe6LHI9+K5YR4TY6THSXf/F8xXxBQ==",
+    "MyBucks.Core.Model/1.0.10": {
+      "sha512": "bOU3/HluST1HgzGjfqHVUzhbtVpaJLqkXfQJ0yMZQl1p2EFyPw0iTGRo3fYytcsDaTo+W0ypSf24dPZZ42Icaw==",
       "type": "package",
-      "path": "mybucks.core.model/1.0.9",
+      "path": "mybucks.core.model/1.0.10",
       "files": [
         "lib/netstandard2.0/MyBucks.Core.Model.dll",
-        "mybucks.core.model.1.0.9.nupkg.sha512",
+        "mybucks.core.model.1.0.10.nupkg.sha512",
         "mybucks.core.model.nuspec"
       ]
     },
-    "NETStandard.Library/2.0.1": {
-      "sha512": "oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
+    "NETStandard.Library/2.0.3": {
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
-      "path": "netstandard.library/2.0.1",
+      "path": "netstandard.library/2.0.3",
       "files": [
         "LICENSE.TXT",
-        "NETStandard.Library.2.0.1.nupkg.sha512",
-        "NETStandard.Library.nuspec",
         "THIRD-PARTY-NOTICES.TXT",
-        "build/NETStandard.Library.targets",
         "build/netstandard2.0/NETStandard.Library.targets",
         "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
         "build/netstandard2.0/ref/System.AppContext.dll",
@@ -1572,7 +1569,9 @@
         "build/netstandard2.0/ref/mscorlib.dll",
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
-        "lib/netstandard1.0/_._"
+        "lib/netstandard1.0/_._",
+        "netstandard.library.2.0.3.nupkg.sha512",
+        "netstandard.library.nuspec"
       ]
     },
     "Newtonsoft.Json/9.0.1": {
@@ -3904,32 +3903,29 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Microsoft.AspNetCore.Mvc.Core >= 2.0.3",
-      "MyBucks.Core.Model >= 1.0.9",
-      "NETStandard.Library >= 2.0.1"
+      "MyBucks.Core.Model >= 1.0.10",
+      "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jeremye\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback": {},
+    "C:\\Users\\tjaartb\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Development\\MyBucks.Mvc.Tools\\MyBucks.Mvc.Tools\\MyBucks.Mvc.Tools.csproj",
+      "projectUniqueName": "C:\\projects\\mybucks\\lib\\core-mvctools\\MyBucks.Mvc.Tools\\MyBucks.Mvc.Tools.csproj",
       "projectName": "MyBucks.Mvc.Tools",
-      "projectPath": "E:\\Development\\MyBucks.Mvc.Tools\\MyBucks.Mvc.Tools\\MyBucks.Mvc.Tools.csproj",
-      "packagesPath": "C:\\Users\\jeremye\\.nuget\\packages\\",
-      "outputPath": "E:\\Development\\MyBucks.Mvc.Tools\\MyBucks.Mvc.Tools\\obj\\",
+      "projectPath": "C:\\projects\\mybucks\\lib\\core-mvctools\\MyBucks.Mvc.Tools\\MyBucks.Mvc.Tools.csproj",
+      "packagesPath": "C:\\Users\\tjaartb\\.nuget\\packages\\",
+      "outputPath": "C:\\projects\\mybucks\\lib\\core-mvctools\\MyBucks.Mvc.Tools\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\jeremye\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\tjaartb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -3959,12 +3955,12 @@
           },
           "MyBucks.Core.Model": {
             "target": "Package",
-            "version": "[1.0.9, )"
+            "version": "[1.0.10, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.1, )",
+            "version": "[2.0.3, )",
             "autoReferenced": true
           }
         },

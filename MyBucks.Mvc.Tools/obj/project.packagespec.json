@@ -1,13 +1,12 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "E:\\Development\\MyBucks.Mvc.Tools\\MyBucks.Mvc.Tools\\MyBucks.Mvc.Tools.csproj",
+    "projectUniqueName": "C:\\projects\\mybucks\\lib\\core-mvctools\\MyBucks.Mvc.Tools\\MyBucks.Mvc.Tools.csproj",
     "projectName": "MyBucks.Mvc.Tools",
-    "projectPath": "E:\\Development\\MyBucks.Mvc.Tools\\MyBucks.Mvc.Tools\\MyBucks.Mvc.Tools.csproj",
-    "outputPath": "E:\\Development\\MyBucks.Mvc.Tools\\MyBucks.Mvc.Tools\\obj\\",
+    "projectPath": "C:\\projects\\mybucks\\lib\\core-mvctools\\MyBucks.Mvc.Tools\\MyBucks.Mvc.Tools.csproj",
+    "outputPath": "C:\\projects\\mybucks\\lib\\core-mvctools\\MyBucks.Mvc.Tools\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
@@ -33,12 +32,12 @@
         },
         "MyBucks.Core.Model": {
           "target": "Package",
-          "version": "[1.0.9, )"
+          "version": "[1.0.10, )"
         },
         "NETStandard.Library": {
           "suppressParent": "All",
           "target": "Package",
-          "version": "[2.0.1, )",
+          "version": "[2.0.3, )",
           "autoReferenced": true
         }
       },

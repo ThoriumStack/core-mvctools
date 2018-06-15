@@ -13,12 +13,14 @@ namespace MyBucks.Mvc.Tools
 
         public ObjectResult InternalServerError(string message)
         {
-            return new ObjectResult(new ApiResponse(message));
+            var result=  new ObjectResult(new ApiResponse(message));
+            result.StatusCode = 500;
+            return result;
         }
 
-        public ObjectResult Unauthorized(string message)
+        public StatusCodeResult Unauthorized(string message)
         {
-            return new ObjectResult(new ApiResponse(message));
+            return new UnauthorizedResult();
         }
 
         // todo: more methods
@@ -33,6 +35,16 @@ namespace MyBucks.Mvc.Tools
             if (reply.ReplyStatus == ReplyStatus.NotFound)
             {
                 return NotFound(reply.ReplyMessage);
+            }
+
+            if (reply.ReplyStatus == ReplyStatus.Unauthorized)
+            {
+                return Unauthorized(reply.ReplyMessage);
+            }
+
+            if (reply.ReplyStatus == ReplyStatus.InvalidInput)
+            {
+                return BadRequest(reply.ReplyMessage);
             }
 
             return Ok();
@@ -55,6 +67,11 @@ namespace MyBucks.Mvc.Tools
                 return Unauthorized(reply.ReplyMessage);
             }
 
+            if (reply.ReplyStatus == ReplyStatus.InvalidInput)
+            {
+                return BadRequest(reply.ReplyMessage);
+            }
+            
             return Ok(data);
 
         }
