@@ -49,7 +49,7 @@ namespace MyBucks.Mvc.Tools
 
             if (reply is IdReply idReply)
             {
-                return Ok(idReply.RefId);
+                return Ok(new { Id = idReply.RefId });
             }
             return Ok();
         }
