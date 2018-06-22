@@ -1,9 +1,0 @@
-E:\Development\MyBucks.Mvc.Tools\MyBucks.Mvc.Tools\bin\Debug\netstandard2.0\MyBucks.Mvc.Tools.deps.json
-E:\Development\MyBucks.Mvc.Tools\MyBucks.Mvc.Tools\bin\Debug\netstandard2.0\MyBucks.Mvc.Tools.dll
-E:\Development\MyBucks.Mvc.Tools\MyBucks.Mvc.Tools\bin\Debug\netstandard2.0\MyBucks.Mvc.Tools.pdb
-E:\Development\MyBucks.Mvc.Tools\MyBucks.Mvc.Tools\obj\Debug\netstandard2.0\MyBucks.Mvc.Tools.csprojResolveAssemblyReference.cache
-E:\Development\MyBucks.Mvc.Tools\MyBucks.Mvc.Tools\obj\Debug\netstandard2.0\MyBucks.Mvc.Tools.csproj.CoreCompileInputs.cache
-E:\Development\MyBucks.Mvc.Tools\MyBucks.Mvc.Tools\obj\Debug\netstandard2.0\MyBucks.Mvc.Tools.AssemblyInfoInputs.cache
-E:\Development\MyBucks.Mvc.Tools\MyBucks.Mvc.Tools\obj\Debug\netstandard2.0\MyBucks.Mvc.Tools.AssemblyInfo.cs
-E:\Development\MyBucks.Mvc.Tools\MyBucks.Mvc.Tools\obj\Debug\netstandard2.0\MyBucks.Mvc.Tools.dll
-E:\Development\MyBucks.Mvc.Tools\MyBucks.Mvc.Tools\obj\Debug\netstandard2.0\MyBucks.Mvc.Tools.pdb
