@@ -44,6 +44,17 @@ namespace MyBucks.Mvc.Tools
                 default:
                     throw new ArgumentOutOfRangeException();
             }
+            
+            if (reply.GetType() == typeof(PaginatedListReply<>))
+            {
+                return Ok(new PaginatedResponse
+                {
+                    Items = ((ListReply)reply).ResultList,
+                    TotalItems = ((IPaginatedReply) reply).TotalItems,
+                    TotalPages = ((IPaginatedReply) reply).TotalPages,
+                });
+                
+            }
 
             switch (reply)
             {
@@ -55,16 +66,7 @@ namespace MyBucks.Mvc.Tools
                     return Ok(listReply.ResultList);
             }
 
-            if (reply.GetType() == typeof(PaginatedListReply<>))
-            {
-                return Ok(new PaginatedResponse
-                {
-                    Items = ((ListReply)reply).ResultList,
-                    TotalItems = ((IPaginatedReply) reply).TotalItems,
-                    TotalPages = ((IPaginatedReply) reply).TotalPages,
-                });
-                
-            }
+            
             
             return Ok();
         }
