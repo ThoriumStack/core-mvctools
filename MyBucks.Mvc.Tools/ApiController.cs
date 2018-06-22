@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using Microsoft.AspNetCore.Mvc;
 using MyBucks.Core.Model;
 using MyBucks.Mvc.Tools.Model;
@@ -57,6 +58,22 @@ namespace MyBucks.Mvc.Tools
             if (reply is SingleValueReply singleValueReply)
             {
                 return Ok(singleValueReply.Value);
+            }
+
+            if (reply is ListReply listReply)
+            {
+                return Ok(listReply.ResultList);
+            }
+
+            if (reply.GetType() == typeof(PaginatedListReply<>))
+            {
+                return Ok(new PaginatedResponse
+                {
+                    Items = ((ListReply)reply).ResultList,
+                    TotalItems = ((IPaginatedReply) reply).TotalItems,
+                    TotalPages = ((IPaginatedReply) reply).TotalPages,
+                });
+                
             }
             
             return Ok();
