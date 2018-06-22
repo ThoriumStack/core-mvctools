@@ -45,13 +45,13 @@ namespace MyBucks.Mvc.Tools
                     throw new ArgumentOutOfRangeException();
             }
             
-            if (reply.GetType() == typeof(PaginatedListReply<>))
+            if (reply is IPaginatedReply paginatedReply)
             {
                 return Ok(new PaginatedResponse
                 {
-                    Items = ((ListReply)reply).ResultList,
-                    TotalItems = ((IPaginatedReply) reply).TotalItems,
-                    TotalPages = ((IPaginatedReply) reply).TotalPages,
+                    Items = ((ListReply)paginatedReply).ResultList,
+                    TotalItems = paginatedReply.TotalItems,
+                    TotalPages = paginatedReply.TotalPages,
                 });
                 
             }
