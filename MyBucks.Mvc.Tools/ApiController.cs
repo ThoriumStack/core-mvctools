@@ -16,8 +16,7 @@ namespace MyBucks.Mvc.Tools
 
         public ObjectResult InternalServerError(string message)
         {
-            var result=  new ObjectResult(new ApiResponse(message));
-            result.StatusCode = 500;
+            var result = new ObjectResult(new ApiResponse(message)) {StatusCode = 500};
             return result;
         }
 
@@ -30,39 +29,30 @@ namespace MyBucks.Mvc.Tools
 
         public IActionResult FromReply(ReplyBase reply)
         {
-            if (reply.ReplyStatus == ReplyStatus.Failed)
+            switch (reply.ReplyStatus)
             {
-                return InternalServerError(reply.ReplyMessage);
+                case ReplyStatus.Failed:
+                    return InternalServerError(reply.ReplyMessage);
+                case ReplyStatus.NotFound:
+                    return NotFound(reply.ReplyMessage);
+                case ReplyStatus.Unauthorized:
+                    return Unauthorized(reply.ReplyMessage);
+                case ReplyStatus.InvalidInput:
+                    return BadRequest(reply.ReplyMessage);
+                case ReplyStatus.Successful:
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException();
             }
 
-            if (reply.ReplyStatus == ReplyStatus.NotFound)
+            switch (reply)
             {
-                return NotFound(reply.ReplyMessage);
-            }
-
-            if (reply.ReplyStatus == ReplyStatus.Unauthorized)
-            {
-                return Unauthorized(reply.ReplyMessage);
-            }
-
-            if (reply.ReplyStatus == ReplyStatus.InvalidInput)
-            {
-                return BadRequest(reply.ReplyMessage);
-            }
-
-            if (reply is IdReply idReply)
-            {
-                return Ok(new CreatedResponse<long?> { Id = idReply.RefId });
-            }
-
-            if (reply is SingleValueReply singleValueReply)
-            {
-                return Ok(singleValueReply.Value);
-            }
-
-            if (reply is ListReply listReply)
-            {
-                return Ok(listReply.ResultList);
+                case IdReply idReply:
+                    return Ok(new CreatedResponse<long?> { Id = idReply.RefId });
+                case SingleValueReply singleValueReply:
+                    return Ok(singleValueReply.Value);
+                case ListReply listReply:
+                    return Ok(listReply.ResultList);
             }
 
             if (reply.GetType() == typeof(PaginatedListReply<>))
@@ -81,40 +71,26 @@ namespace MyBucks.Mvc.Tools
 
         public IActionResult FromReply<TData>(ReplyBase reply, TData data)
         {
-            if (reply.ReplyStatus == ReplyStatus.Failed)
+            switch (reply.ReplyStatus)
             {
-                return InternalServerError(reply.ReplyMessage);
+                case ReplyStatus.Failed:
+                    return InternalServerError(reply.ReplyMessage);
+                case ReplyStatus.NotFound:
+                    return NotFound(reply.ReplyMessage);
+                case ReplyStatus.Unauthorized:
+                    return Unauthorized(reply.ReplyMessage);
+                case ReplyStatus.InvalidInput:
+                    return BadRequest(reply.ReplyMessage);
+                case ReplyStatus.Successful:
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException();
             }
 
-            if (reply.ReplyStatus == ReplyStatus.NotFound)
-            {
-                return NotFound(reply.ReplyMessage);
-            }
-
-            if (reply.ReplyStatus == ReplyStatus.Unauthorized)
-            {
-                return Unauthorized(reply.ReplyMessage);
-            }
-
-            if (reply.ReplyStatus == ReplyStatus.InvalidInput)
-            {
-                return BadRequest(reply.ReplyMessage);
-            }
-            
             return Ok(data);
 
         }
        
 
-    }
-    
-    public class ApiResponse
-    {
-        public ApiResponse(string message)
-        {
-            Message = message;
-        }
-
-        public string Message { get; set; }
     }
 }

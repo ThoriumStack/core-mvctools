@@ -6,6 +6,7 @@
         <e p="ApiController.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Model" t="Include">
+          <e p="ApiResponse.cs" t="Include" />
           <e p="CreatedResponse.cs" t="Include" />
           <e p="PaginatedResponse.cs" t="Include" />
         </e>
