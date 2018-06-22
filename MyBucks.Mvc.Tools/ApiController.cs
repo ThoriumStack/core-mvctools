@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyBucks.Core.Model;
+using MyBucks.Mvc.Tools.Model;
 
 namespace MyBucks.Mvc.Tools
 {
@@ -49,7 +50,7 @@ namespace MyBucks.Mvc.Tools
 
             if (reply is IdReply idReply)
             {
-                return Ok(new { Id = idReply.RefId });
+                return Ok(new CreatedResponse<long?> { Id = idReply.RefId });
             }
             return Ok();
         }
