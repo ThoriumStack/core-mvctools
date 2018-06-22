@@ -65,9 +65,6 @@ namespace MyBucks.Mvc.Tools
                 case ListReply listReply:
                     return Ok(listReply.ResultList);
             }
-
-            
-            
             return Ok();
         }
 
