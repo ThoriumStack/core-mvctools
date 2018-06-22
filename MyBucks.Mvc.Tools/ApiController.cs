@@ -47,6 +47,10 @@ namespace MyBucks.Mvc.Tools
                 return BadRequest(reply.ReplyMessage);
             }
 
+            if (reply is IdReply idReply)
+            {
+                return Ok(idReply.RefId);
+            }
             return Ok();
         }
 
