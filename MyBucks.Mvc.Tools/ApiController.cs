@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using Microsoft.AspNetCore.Mvc;
 using MyBucks.Core.Model;
 using MyBucks.Mvc.Tools.Model;
 
@@ -52,6 +53,12 @@ namespace MyBucks.Mvc.Tools
             {
                 return Ok(new CreatedResponse<long?> { Id = idReply.RefId });
             }
+
+            if (reply is SingleValueReply singleValueReply)
+            {
+                return Ok(singleValueReply.Value);
+            }
+            
             return Ok();
         }
 
@@ -80,6 +87,7 @@ namespace MyBucks.Mvc.Tools
             return Ok(data);
 
         }
+       
 
     }
     

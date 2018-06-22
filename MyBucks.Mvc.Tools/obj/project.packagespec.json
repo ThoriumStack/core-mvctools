@@ -32,7 +32,7 @@
         },
         "MyBucks.Core.Model": {
           "target": "Package",
-          "version": "[1.0.10, )"
+          "version": "[1.0.11, )"
         },
         "NETStandard.Library": {
           "suppressParent": "All",
