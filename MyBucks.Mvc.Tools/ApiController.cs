@@ -47,6 +47,12 @@ namespace MyBucks.Mvc.Tools
             
             if (reply is IPaginatedReply paginatedReply)
             {
+//                var d1 = typeof(PaginatedResponse<>);
+//                Type[] typeArgs = { ((ListReply)paginatedReply).ResultList.GetType().GetElementType() };
+//                var makeme = d1.MakeGenericType(typeArgs);
+//                object o = Activator.CreateInstance(makeme);
+                
+                
                 return Ok(new PaginatedResponse
                 {
                     Items = ((ListReply)paginatedReply).ResultList,

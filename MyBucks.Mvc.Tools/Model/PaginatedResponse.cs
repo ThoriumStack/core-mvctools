@@ -8,4 +8,9 @@ namespace MyBucks.Mvc.Tools.Model
         public int TotalItems { get; set; }
         public int TotalPages { get; set; }
     }
+
+    public class PaginatedResponse<TListType> : PaginatedResponse
+    {
+        public new List<TListType> Items { get; set; }
+    }
 }
