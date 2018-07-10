@@ -410,7 +410,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "MyBucks.Core.Model/1.0.21": {
+      "MyBucks.Core.Model/1.0.23": {
         "type": "package",
         "dependencies": {
           "System.ComponentModel.Annotations": "4.4.0"
@@ -1437,13 +1437,13 @@
         "runtime.json"
       ]
     },
-    "MyBucks.Core.Model/1.0.21": {
-      "sha512": "L33be4kD83VNHSg2Wiun8thcGpdhmVcxMH4RHx3ZW7kCge+dIBpOG3KarNOmxxKKfJ1Y1b8ppsrI442WGkOLSg==",
+    "MyBucks.Core.Model/1.0.23": {
+      "sha512": "gy/Uh5PVmhyxyVN3saKeFDzF+e438k9aqlodvQE3Q3FLr3E1M/gRUjjGBXsoBVXMPJWNrmVzTdszHlLj5l+t0g==",
       "type": "package",
-      "path": "mybucks.core.model/1.0.21",
+      "path": "mybucks.core.model/1.0.23",
       "files": [
         "lib/netstandard2.0/MyBucks.Core.Model.dll",
-        "mybucks.core.model.1.0.21.nupkg.sha512",
+        "mybucks.core.model.1.0.23.nupkg.sha512",
         "mybucks.core.model.nuspec"
       ]
     },
@@ -3903,7 +3903,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Microsoft.AspNetCore.Mvc.Core >= 2.0.3",
-      "MyBucks.Core.Model >= 1.0.21",
+      "MyBucks.Core.Model >= 1.0.23",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -3955,7 +3955,7 @@
           },
           "MyBucks.Core.Model": {
             "target": "Package",
-            "version": "[1.0.21, )"
+            "version": "[1.0.23, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
