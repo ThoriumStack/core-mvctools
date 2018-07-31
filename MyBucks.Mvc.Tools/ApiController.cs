@@ -136,7 +136,7 @@ namespace MyBucks.Mvc.Tools
 
         public void OnActionExecuting(ActionExecutingContext context)
         {
-            if (context.HttpContext.Request.Headers.TryGetValue("ContextString", out StringValues contextStrings))
+            if (context.HttpContext.Request.Headers.TryGetValue("MyBucks-Context", out StringValues contextStrings))
             {
                 CurrentContext = string.IsNullOrWhiteSpace(contextStrings.FirstOrDefault()) ? null : contextStrings.FirstOrDefault();
             }
@@ -145,7 +145,7 @@ namespace MyBucks.Mvc.Tools
                 CurrentContext = null;
             }
             
-            if (context.HttpContext.Request.Headers.TryGetValue("UserId", out StringValues userIds))
+            if (context.HttpContext.Request.Headers.TryGetValue("MyBucks-UserId", out StringValues userIds))
             {
                 CurrentUserId = string.IsNullOrWhiteSpace(userIds.FirstOrDefault()) ? null : userIds.FirstOrDefault();
             }
