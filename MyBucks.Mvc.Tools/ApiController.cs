@@ -1,14 +1,52 @@
 ﻿using System;
-using System.Text;
+using System.Linq;
+using System.Runtime.InteropServices;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.Extensions.Primitives;
 using MyBucks.Core.Model;
+using MyBucks.Core.Model.Abstractions;
 using MyBucks.Mvc.Tools.Model;
 
 namespace MyBucks.Mvc.Tools
 {
-    public class ApiController : ControllerBase
+    public class ApiController : ControllerBase, IServiceBase, IActionFilter
     {
+        private readonly IServiceBase[] _services;
+        
+        public ApiController(params IServiceBase[] services)
+        {
+            this._services = services;
+        }
 
+        private string _currentUserId;
+        public virtual string CurrentUserId
+        {
+            get => _currentUserId;
+            set
+            {
+                _currentUserId = value;
+                foreach (var service in this._services)
+                {
+                    service.CurrentUserId = _currentUserId;
+                }
+            }
+        }
+
+        private string _currentContext;
+        public virtual string CurrentContext
+        {
+            get => _currentContext;
+            set
+            {
+                _currentContext = value;
+                foreach (var service in this._services)
+                {
+                    service.CurrentContext = _currentContext;
+                }
+            }
+        }
+        
         public BadRequestObjectResult BadRequest(string message)
         {
             return BadRequest(new ApiResponse(message));
@@ -95,7 +133,31 @@ namespace MyBucks.Mvc.Tools
             return Ok(data);
 
         }
-       
 
+        public void OnActionExecuting(ActionExecutingContext context)
+        {
+            if (context.HttpContext.Request.Headers.TryGetValue("ContextString", out StringValues contextStrings))
+            {
+                CurrentContext = string.IsNullOrWhiteSpace(contextStrings.FirstOrDefault()) ? null : contextStrings.FirstOrDefault();
+            }
+            else
+            {
+                CurrentContext = null;
+            }
+            
+            if (context.HttpContext.Request.Headers.TryGetValue("UserId", out StringValues userIds))
+            {
+                CurrentUserId = string.IsNullOrWhiteSpace(userIds.FirstOrDefault()) ? null : userIds.FirstOrDefault();
+            }
+            else
+            {
+                CurrentUserId = null;
+            }
+        }
+
+        public void OnActionExecuted(ActionExecutedContext context)
+        {
+            // throw new NotImplementedException();
+        }
     }
 }
