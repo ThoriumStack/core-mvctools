@@ -10,7 +10,7 @@ using MyBucks.Mvc.Tools.Model;
 
 namespace MyBucks.Mvc.Tools
 {
-    public class ApiController : ControllerBase, IServiceBase, IActionFilter
+    public class ApiController : ControllerBase, IActionFilter
     {
         private readonly IServiceBase[] _services;
         
