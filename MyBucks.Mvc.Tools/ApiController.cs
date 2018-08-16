@@ -57,11 +57,19 @@ namespace MyBucks.Mvc.Tools
             var result = new ObjectResult(new ApiResponse(message)) {StatusCode = 500};
             return result;
         }
+        
+        public ObjectResult NotFound(string message)
+        {
+            var result = new ObjectResult(new ApiResponse(message)) {StatusCode = 404};
+            return result;
+        }
 
         public StatusCodeResult Unauthorized(string message)
         {
             return new UnauthorizedResult();
         }
+        
+       
 
         // todo: more methods
 

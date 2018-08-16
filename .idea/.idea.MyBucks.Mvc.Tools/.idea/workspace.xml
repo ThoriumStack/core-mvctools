@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="544fbaec-b1ad-453c-88ed-5b5f862a1fe1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyBucks.Mvc.Tools/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Mvc.Tools/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBucks.Mvc.Tools/MyBucks.Mvc.Tools.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Mvc.Tools/MyBucks.Mvc.Tools.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBucks.Mvc.Tools/obj/MyBucks.Mvc.Tools.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Mvc.Tools/obj/MyBucks.Mvc.Tools.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBucks.Mvc.Tools/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Mvc.Tools/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBucks.Mvc.Tools/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Mvc.Tools/obj/project.packagespec.json" afterDir="false" />
-    </list>
+    <list default="true" id="544fbaec-b1ad-453c-88ed-5b5f862a1fe1" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -155,9 +149,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="1934" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -217,7 +212,7 @@
       <workItem from="1529076916749" duration="2820000" />
       <workItem from="1529656974485" duration="12899000" />
       <workItem from="1529924317296" duration="2602000" />
-      <workItem from="1531233306295" duration="243000" />
+      <workItem from="1531233306295" duration="866000" />
     </task>
     <task id="LOCAL-00001" summary="building project">
       <created>1528452106099</created>
@@ -359,11 +354,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529927322876</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="updgrade package">
+      <created>1531233562910</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1531233562910</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24445000" />
+    <option name="totallyTimeSpent" value="25068000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,7 +431,8 @@
     <MESSAGE value="add tests" />
     <MESSAGE value="package upgrade" />
     <MESSAGE value="generic type for paginated response" />
-    <option name="LAST_COMMIT_MESSAGE" value="generic type for paginated response" />
+    <MESSAGE value="updgrade package" />
+    <option name="LAST_COMMIT_MESSAGE" value="updgrade package" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
