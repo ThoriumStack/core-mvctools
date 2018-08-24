@@ -10,17 +10,17 @@ using MyBucks.Mvc.Tools.Model;
 
 namespace MyBucks.Mvc.Tools
 {
-    public class ApiController : ControllerBase, IActionFilter
+    public abstract class ApiController : ControllerBase, IActionFilter
     {
         private readonly IServiceBase[] _services;
         
-        public ApiController(params IServiceBase[] services)
+        protected ApiController(params IServiceBase[] services)
         {
             this._services = services;
         }
 
         private string _currentUserId;
-        public virtual string CurrentUserId
+        protected virtual string CurrentUserId
         {
             get => _currentUserId;
             set
@@ -34,7 +34,7 @@ namespace MyBucks.Mvc.Tools
         }
 
         private string _currentContext;
-        public virtual string CurrentContext
+        protected virtual string CurrentContext
         {
             get => _currentContext;
             set
@@ -47,24 +47,24 @@ namespace MyBucks.Mvc.Tools
             }
         }
         
-        public BadRequestObjectResult BadRequest(string message)
+        protected BadRequestObjectResult BadRequest(string message)
         {
             return BadRequest(new ApiResponse(message));
         }
 
-        public ObjectResult InternalServerError(string message)
+        protected ObjectResult InternalServerError(string message)
         {
             var result = new ObjectResult(new ApiResponse(message)) {StatusCode = 500};
             return result;
         }
         
-        public ObjectResult NotFound(string message)
+        protected ObjectResult NotFound(string message)
         {
             var result = new ObjectResult(new ApiResponse(message)) {StatusCode = 404};
             return result;
         }
 
-        public StatusCodeResult Unauthorized(string message)
+        protected StatusCodeResult Unauthorized(string message)
         {
             return new UnauthorizedResult();
         }
@@ -73,7 +73,7 @@ namespace MyBucks.Mvc.Tools
 
         // todo: more methods
 
-        public IActionResult FromReply(ReplyBase reply)
+        protected IActionResult FromReply(ReplyBase reply)
         {
             switch (reply.ReplyStatus)
             {
@@ -120,7 +120,7 @@ namespace MyBucks.Mvc.Tools
             return Ok();
         }
 
-        public IActionResult FromReply<TData>(ReplyBase reply, TData data)
+        protected IActionResult FromReply<TData>(ReplyBase reply, TData data)
         {
             switch (reply.ReplyStatus)
             {
@@ -142,6 +142,7 @@ namespace MyBucks.Mvc.Tools
 
         }
 
+        [NonAction]
         public void OnActionExecuting(ActionExecutingContext context)
         {
             if (context.HttpContext.Request.Headers.TryGetValue("MyBucks-Context", out StringValues contextStrings))
@@ -163,6 +164,7 @@ namespace MyBucks.Mvc.Tools
             }
         }
 
+        [NonAction]
         public void OnActionExecuted(ActionExecutedContext context)
         {
             // throw new NotImplementedException();
