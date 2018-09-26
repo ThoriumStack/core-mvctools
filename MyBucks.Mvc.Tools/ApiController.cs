@@ -162,6 +162,13 @@ namespace MyBucks.Mvc.Tools
             {
                 CurrentUserId = null;
             }
+
+            OnActionExecutingCustom(context);
+        }
+
+        protected virtual void OnActionExecutingCustom(ActionExecutingContext context)
+        {
+            
         }
 
         [NonAction]
