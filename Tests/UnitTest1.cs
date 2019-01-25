@@ -32,7 +32,7 @@ namespace Tests
                 ReplyStatus = ReplyStatus.Successful
             };
 
-            var result = apiController.FromReply(lst);
+          //  var result = apiController.FromReply(lst);
             return;
         }
         
