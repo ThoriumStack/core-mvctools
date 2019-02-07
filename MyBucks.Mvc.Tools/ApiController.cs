@@ -47,6 +47,20 @@ namespace MyBucks.Mvc.Tools
             }
         }
         
+        private int _currentTimeZoneOffset;
+        protected virtual int CurrentTimeZoneOffset
+        {
+            get => _currentTimeZoneOffset;
+            set
+            {
+                _currentTimeZoneOffset = value;
+                foreach (var service in this._services)
+                {
+                    service.CurrentTimeZoneOffset = _currentTimeZoneOffset;
+                }
+            }
+        }
+        
         protected BadRequestObjectResult BadRequest(string message)
         {
             return BadRequest(new ApiResponse(message));
