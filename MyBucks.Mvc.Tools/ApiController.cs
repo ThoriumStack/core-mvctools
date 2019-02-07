@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Primitives;
 using MyBucks.Core.Model;
 using MyBucks.Core.Model.Abstractions;
-using MyBucks.Mvc.Tools.Model;
+using MyBucks.Mvc.Models;
 
 namespace MyBucks.Mvc.Tools
 {
