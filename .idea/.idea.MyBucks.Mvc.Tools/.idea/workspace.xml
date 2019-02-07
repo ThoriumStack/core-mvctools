@@ -23,15 +23,11 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="544fbaec-b1ad-453c-88ed-5b5f862a1fe1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyBucks.Mvc.Tools/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Mvc.Tools/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyBucks.Mvc.Tools/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Mvc.Tools/.idea/indexLayout.xml" afterDir="false" />
+    <list default="true" id="544fbaec-b1ad-453c-88ed-5b5f862a1fe1" name="Default" comment="qa mvc tools">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyBucks.Mvc.Tools/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Mvc.Tools/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyBucks.Mvc.Tools/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Mvc.Tools/riderModule.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBucks.Mvc.Tools/obj/MyBucks.Mvc.Tools.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Mvc.Tools/obj/MyBucks.Mvc.Tools.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBucks.Mvc.Tools/obj/MyBucks.Mvc.Tools.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Mvc.Tools/obj/MyBucks.Mvc.Tools.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBucks.Mvc.Tools/obj/MyBucks.Mvc.Tools.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Mvc.Tools/obj/MyBucks.Mvc.Tools.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBucks.Mvc.Tools/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Mvc.Tools/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBucks.Mvc.Tools/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Mvc.Tools/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,10 +37,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyBucks.Mvc.Tools/ApiController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-62">
+            <state relative-caret-position="474">
               <caret line="170" column="12" selection-start-line="170" selection-start-column="12" selection-end-line="170" selection-end-column="12" />
               <folding>
                 <marker date="1537951485629" expanded="false" signature="6:277" ph="..." />
@@ -81,21 +77,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/UnitTest1.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+            <state relative-caret-position="240">
+              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
               <folding>
-                <marker date="1537951170233" expanded="false" signature="6:111" ph="..." />
-                <marker date="1537951170233" expanded="true" signature="128:1072" ph="{...}" />
-                <marker date="1537951170233" expanded="true" signature="157:1070" ph="{...}" />
-                <marker date="1537951170233" expanded="true" signature="206:909" ph="{...}" />
-                <marker date="1537951170233" expanded="true" signature="337:822" ph="{...}" />
-                <marker date="1537951170233" expanded="true" signature="410:754" ph="{...}" />
-                <marker date="1537951170233" expanded="true" signature="472:571" ph="{...}" />
-                <marker date="1537951170233" expanded="true" signature="633:735" ph="{...}" />
-                <marker date="1537951170233" expanded="true" signature="953:1064" ph="{...}" />
+                <marker date="1548947593783" expanded="false" signature="6:111" ph="..." />
+                <marker date="1548947593783" expanded="true" signature="128:1074" ph="{...}" />
+                <marker date="1548947593783" expanded="true" signature="157:1072" ph="{...}" />
+                <marker date="1548947593783" expanded="true" signature="206:911" ph="{...}" />
+                <marker date="1548947593783" expanded="true" signature="337:822" ph="{...}" />
+                <marker date="1548947593783" expanded="true" signature="410:754" ph="{...}" />
+                <marker date="1548947593783" expanded="true" signature="472:571" ph="{...}" />
+                <marker date="1548947593783" expanded="true" signature="633:735" ph="{...}" />
+                <marker date="1548947593783" expanded="true" signature="955:1066" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -118,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyBucks.Mvc.Tools/Model/PaginatedResponse.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="135">
               <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
               <folding>
                 <marker date="1537951170229" expanded="true" signature="68:383" ph="{...}" />
@@ -155,6 +151,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="qa" />
+      </map>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/MyBucks.Mvc.Tools/Nuget.config" root0="FORCE_HIGHLIGHTING" />
@@ -170,9 +171,10 @@
         <option value="$PROJECT_DIR$/MyBucks.Mvc.Tools/Nuget.config" />
         <option value="$PROJECT_DIR$/MyBucks.Mvc.Tools/Model/CreatedResponse.cs" />
         <option value="$PROJECT_DIR$/MyBucks.Mvc.Tools/Model/ApiResponse.cs" />
-        <option value="$PROJECT_DIR$/Tests/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/MyBucks.Mvc.Tools/Model/PaginatedResponse.cs" />
         <option value="$PROJECT_DIR$/MyBucks.Mvc.Tools/ApiController.cs" />
+        <option value="$PROJECT_DIR$/Tests/Tests.csproj" />
+        <option value="$PROJECT_DIR$/Tests/UnitTest1.cs" />
       </list>
     </option>
   </component>
@@ -187,8 +189,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -201,6 +201,8 @@
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,7 +240,8 @@
       <workItem from="1529924317296" duration="2602000" />
       <workItem from="1531233306295" duration="866000" />
       <workItem from="1537951381039" duration="2554000" />
-      <workItem from="1548413813939" duration="266000" />
+      <workItem from="1548413813939" duration="980000" />
+      <workItem from="1548947547652" duration="182000" />
     </task>
     <task id="LOCAL-00001" summary="building project">
       <created>1528452106099</created>
@@ -394,11 +397,25 @@
       <option name="project" value="LOCAL" />
       <updated>1537951527086</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="upgrade asp .net">
+      <created>1548414113348</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1548414113348</updated>
+    </task>
+    <task id="LOCAL-00024" summary="qa mvc tools">
+      <created>1548414193246</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1548414193246</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27888000" />
+    <option name="totallyTimeSpent" value="28784000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -410,13 +427,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1978" y="42" width="1862" height="1046" extended-state="6" />
+    <frame x="1978" y="34" width="1862" height="1046" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29019824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2935022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -424,7 +442,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="NuGet" order="7" visible="true" weight="0.57843137" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.57843137" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="10" weight="0.3297062" />
@@ -433,12 +451,12 @@
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Build" order="14" />
       <window_info anchor="bottom" id="TeamCity" order="15" />
-      <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +485,9 @@
     <MESSAGE value="generic type for paginated response" />
     <MESSAGE value="updgrade package" />
     <MESSAGE value="add custom space for implementing onactionexecuting" />
-    <option name="LAST_COMMIT_MESSAGE" value="add custom space for implementing onactionexecuting" />
+    <MESSAGE value="upgrade asp .net" />
+    <MESSAGE value="qa mvc tools" />
+    <option name="LAST_COMMIT_MESSAGE" value="qa mvc tools" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -477,10 +497,10 @@
           <line>35</line>
           <properties documentPath="$PROJECT_DIR$/Tests/UnitTest1.cs" initialLine="35">
             <startOffsets>
-              <option value="892" />
+              <option value="894" />
             </startOffsets>
             <endOffsets>
-              <option value="899" />
+              <option value="901" />
             </endOffsets>
           </properties>
         </line-breakpoint>
@@ -493,15 +513,22 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MyBucks.Mvc.Tools/Class1.cs" />
-    <entry file="file://$PROJECT_DIR$/MyBucks.Mvc.Tools/MyBucks.Mvc.Tools.csproj">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4CE2E3A8-E2EC-4FBF-86BE-4CF0BAB90A28/02/2f2b0af3/UnauthorizedResult.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4CE2E3A8-E2EC-4FBF-86BE-4CF0BAB90A28/04/a1701614/StatusCodeResult.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4CE2E3A8-E2EC-4FBF-86BE-4CF0BAB90A28/95/6119ef67/ControllerBase.cs" />
+    <entry file="file://$PROJECT_DIR$/Tests/Tests.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBucks.Mvc.Tools/MyBucks.Mvc.Tools.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/MyBucks.Mvc.Tools/ApiController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-62">
+        <state relative-caret-position="474">
           <caret line="170" column="12" selection-start-line="170" selection-start-column="12" selection-end-line="170" selection-end-column="12" />
           <folding>
             <marker date="1537951485629" expanded="false" signature="6:277" ph="..." />
@@ -537,24 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/UnitTest1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding>
-            <marker date="1537951170233" expanded="false" signature="6:111" ph="..." />
-            <marker date="1537951170233" expanded="true" signature="128:1072" ph="{...}" />
-            <marker date="1537951170233" expanded="true" signature="157:1070" ph="{...}" />
-            <marker date="1537951170233" expanded="true" signature="206:909" ph="{...}" />
-            <marker date="1537951170233" expanded="true" signature="337:822" ph="{...}" />
-            <marker date="1537951170233" expanded="true" signature="410:754" ph="{...}" />
-            <marker date="1537951170233" expanded="true" signature="472:571" ph="{...}" />
-            <marker date="1537951170233" expanded="true" signature="633:735" ph="{...}" />
-            <marker date="1537951170233" expanded="true" signature="953:1064" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyBucks.Mvc.Tools/Model/ApiResponse.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -569,7 +578,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyBucks.Mvc.Tools/Model/PaginatedResponse.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="135">
           <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
           <folding>
             <marker date="1537951170229" expanded="true" signature="68:383" ph="{...}" />
@@ -594,6 +603,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/UnitTest1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <marker date="1548947593783" expanded="false" signature="6:111" ph="..." />
+            <marker date="1548947593783" expanded="true" signature="128:1074" ph="{...}" />
+            <marker date="1548947593783" expanded="true" signature="157:1072" ph="{...}" />
+            <marker date="1548947593783" expanded="true" signature="206:911" ph="{...}" />
+            <marker date="1548947593783" expanded="true" signature="337:822" ph="{...}" />
+            <marker date="1548947593783" expanded="true" signature="410:754" ph="{...}" />
+            <marker date="1548947593783" expanded="true" signature="472:571" ph="{...}" />
+            <marker date="1548947593783" expanded="true" signature="633:735" ph="{...}" />
+            <marker date="1548947593783" expanded="true" signature="955:1066" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

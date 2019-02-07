@@ -1,4 +1,4 @@
-﻿namespace MyBucks.Mvc.Tools.Model
+﻿namespace MyBucks.Core.Mvc.Models
 {
     public class ApiResponse
     {
