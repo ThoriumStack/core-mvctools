@@ -23,11 +23,12 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="544fbaec-b1ad-453c-88ed-5b5f862a1fe1" name="Default" comment="qa mvc tools">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyBucks.Mvc.Tools/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Mvc.Tools/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyBucks.Mvc.Tools/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Mvc.Tools/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBucks.Mvc.Tools/obj/MyBucks.Mvc.Tools.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Mvc.Tools/obj/MyBucks.Mvc.Tools.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBucks.Mvc.Tools/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Mvc.Tools/obj/project.assets.json" afterDir="false" />
+    <list default="true" id="544fbaec-b1ad-453c-88ed-5b5f862a1fe1" name="Default" comment="add core mvc models. so we don't pull in asp .net when we have a api client">
+      <change beforePath="$PROJECT_DIR$/MyBucks.Core.Mvc.Models/ApiResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Mvc.Models/ApiResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBucks.Core.Mvc.Models/CreatedResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Mvc.Models/CreatedResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBucks.Core.Mvc.Models/MyBucks.Core.Mvc.Models.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Mvc.Models/MyBucks.Mvc.Models.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBucks.Core.Mvc.Models/PaginatedResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Mvc.Models/PaginatedResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBucks.Mvc.Tools.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Mvc.Tools.sln" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyBucks.Mvc.Tools/ApiController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
+            <state relative-caret-position="2295">
               <caret line="170" column="12" selection-start-line="170" selection-start-column="12" selection-end-line="170" selection-end-column="12" />
               <folding>
                 <marker date="1537951485629" expanded="false" signature="6:277" ph="..." />
@@ -77,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/UnitTest1.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
               <folding>
                 <marker date="1548947593783" expanded="false" signature="6:111" ph="..." />
                 <marker date="1548947593783" expanded="true" signature="128:1074" ph="{...}" />
@@ -98,41 +99,41 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyBucks.Mvc.Tools/Model/ApiResponse.cs">
+        <entry file="file://$PROJECT_DIR$/MyBucks.Mvc.Models/ApiResponse.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="105">
               <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
-                <marker date="1537951170229" expanded="true" signature="33:217" ph="{...}" />
-                <marker date="1537951170229" expanded="true" signature="64:215" ph="{...}" />
-                <marker date="1537951170229" expanded="true" signature="113:164" ph="{...}" />
+                <marker date="1549540446454" expanded="true" signature="33:217" ph="{...}" />
+                <marker date="1549540446454" expanded="true" signature="64:215" ph="{...}" />
+                <marker date="1549540446454" expanded="true" signature="113:164" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyBucks.Mvc.Tools/Model/PaginatedResponse.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyBucks.Mvc.Models/PaginatedResponse.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding>
-                <marker date="1537951170229" expanded="true" signature="68:383" ph="{...}" />
-                <marker date="1537951170229" expanded="true" signature="105:247" ph="{...}" />
-                <marker date="1537951170229" expanded="true" signature="314:381" ph="{...}" />
+                <marker date="1549540446470" expanded="true" signature="68:383" ph="{...}" />
+                <marker date="1549540446470" expanded="true" signature="105:247" ph="{...}" />
+                <marker date="1549540446470" expanded="true" signature="314:381" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyBucks.Mvc.Tools/Model/CreatedResponse.cs">
+        <entry file="file://$PROJECT_DIR$/MyBucks.Mvc.Models/CreatedResponse.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="30">
               <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
               <folding>
-                <marker date="1537951170229" expanded="true" signature="33:131" ph="{...}" />
-                <marker date="1537951170229" expanded="true" signature="77:129" ph="{...}" />
+                <marker date="1549540446466" expanded="true" signature="33:131" ph="{...}" />
+                <marker date="1549540446466" expanded="true" signature="77:129" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -159,10 +160,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/MyBucks.Mvc.Tools/Nuget.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyBucks.Mvc.Tools/Model/CreatedResponse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyBucks.Mvc.Tools/Model/PaginatedResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyBucks.Mvc.Models/CreatedResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyBucks.Mvc.Models/PaginatedResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Tests/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyBucks.Mvc.Tools/Model/ApiResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyBucks.Mvc.Models/ApiResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyBucks.Mvc.Tools/ApiController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -175,6 +176,8 @@
         <option value="$PROJECT_DIR$/MyBucks.Mvc.Tools/ApiController.cs" />
         <option value="$PROJECT_DIR$/Tests/Tests.csproj" />
         <option value="$PROJECT_DIR$/Tests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/MyBucks.Core.Mvc.Models/Class1.cs" />
+        <option value="$PROJECT_DIR$/MyBucks.Core.Mvc.Models/PaginatedResponse.cs" />
       </list>
     </option>
   </component>
@@ -194,6 +197,11 @@
           <expand>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MyBucks.Mvc.Tools" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MyBucks.Mvc.Tools" type="24d0babc:SolutionExplorerModelNode" />
               <item name="MyBucks.Mvc.Tools" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
@@ -242,6 +250,7 @@
       <workItem from="1537951381039" duration="2554000" />
       <workItem from="1548413813939" duration="980000" />
       <workItem from="1548947547652" duration="182000" />
+      <workItem from="1549540365655" duration="298000" />
     </task>
     <task id="LOCAL-00001" summary="building project">
       <created>1528452106099</created>
@@ -411,11 +420,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548414193246</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add core mvc models. so we don't pull in asp .net when we have a api client">
+      <created>1549540476804</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1549540476804</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28784000" />
+    <option name="totallyTimeSpent" value="29082000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -428,9 +444,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1978" y="34" width="1862" height="1046" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2935022" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29680616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -487,7 +502,8 @@
     <MESSAGE value="add custom space for implementing onactionexecuting" />
     <MESSAGE value="upgrade asp .net" />
     <MESSAGE value="qa mvc tools" />
-    <option name="LAST_COMMIT_MESSAGE" value="qa mvc tools" />
+    <MESSAGE value="add core mvc models. so we don't pull in asp .net when we have a api client" />
+    <option name="LAST_COMMIT_MESSAGE" value="add core mvc models. so we don't pull in asp .net when we have a api client" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -528,7 +544,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyBucks.Mvc.Tools/ApiController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
+        <state relative-caret-position="2295">
           <caret line="170" column="12" selection-start-line="170" selection-start-column="12" selection-end-line="170" selection-end-column="12" />
           <folding>
             <marker date="1537951485629" expanded="false" signature="6:277" ph="..." />
@@ -564,37 +580,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyBucks.Mvc.Tools/Model/ApiResponse.cs">
+    <entry file="file://$PROJECT_DIR$/MyBucks.Mvc.Models/ApiResponse.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="105">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
-            <marker date="1537951170229" expanded="true" signature="33:217" ph="{...}" />
-            <marker date="1537951170229" expanded="true" signature="64:215" ph="{...}" />
-            <marker date="1537951170229" expanded="true" signature="113:164" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyBucks.Mvc.Tools/Model/PaginatedResponse.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <marker date="1537951170229" expanded="true" signature="68:383" ph="{...}" />
-            <marker date="1537951170229" expanded="true" signature="105:247" ph="{...}" />
-            <marker date="1537951170229" expanded="true" signature="314:381" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyBucks.Mvc.Tools/Model/CreatedResponse.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-          <folding>
-            <marker date="1537951170229" expanded="true" signature="33:131" ph="{...}" />
-            <marker date="1537951170229" expanded="true" signature="77:129" ph="{...}" />
+            <marker date="1549540446454" expanded="true" signature="33:217" ph="{...}" />
+            <marker date="1549540446454" expanded="true" signature="64:215" ph="{...}" />
+            <marker date="1549540446454" expanded="true" signature="113:164" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -606,10 +599,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MyBucks.Core.Mvc.Models/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/UnitTest1.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
           <folding>
             <marker date="1548947593783" expanded="false" signature="6:111" ph="..." />
             <marker date="1548947593783" expanded="true" signature="128:1074" ph="{...}" />
@@ -620,6 +616,29 @@
             <marker date="1548947593783" expanded="true" signature="472:571" ph="{...}" />
             <marker date="1548947593783" expanded="true" signature="633:735" ph="{...}" />
             <marker date="1548947593783" expanded="true" signature="955:1066" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBucks.Mvc.Models/CreatedResponse.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <folding>
+            <marker date="1549540446466" expanded="true" signature="33:131" ph="{...}" />
+            <marker date="1549540446466" expanded="true" signature="77:129" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBucks.Mvc.Models/PaginatedResponse.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <marker date="1549540446470" expanded="true" signature="68:383" ph="{...}" />
+            <marker date="1549540446470" expanded="true" signature="105:247" ph="{...}" />
+            <marker date="1549540446470" expanded="true" signature="314:381" ph="{...}" />
           </folding>
         </state>
       </provider>

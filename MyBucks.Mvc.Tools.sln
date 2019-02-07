@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBucks.Mvc.Tools", "MyBuck
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{5CAEC7AC-E653-4A15-AF6A-2A30CFB26CDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBucks.Core.Mvc.Models", "MyBucks.Core.Mvc.Models\MyBucks.Core.Mvc.Models.csproj", "{62B609B2-1D35-48BC-A456-5E798AFCAFF2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBucks.Mvc.Models", "MyBucks.Mvc.Models\MyBucks.Mvc.Models.csproj", "{62B609B2-1D35-48BC-A456-5E798AFCAFF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
