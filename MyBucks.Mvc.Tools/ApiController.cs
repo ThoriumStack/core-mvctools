@@ -175,6 +175,18 @@ namespace MyBucks.Mvc.Tools
             else
             {
                 CurrentUserId = null;
+            } 
+            if (context.HttpContext.Request.Headers.TryGetValue("MyBucks-TimeZone", out StringValues timeZones))
+            {
+                var tz = timeZones.FirstOrDefault();
+
+                int.TryParse(tz, out int timezoneOffset);
+                
+                CurrentTimeZoneOffset = timezoneOffset;
+            }
+            else
+            {
+                CurrentTimeZoneOffset = 0;
             }
 
             OnActionExecutingCustom(context);
