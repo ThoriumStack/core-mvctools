@@ -4,6 +4,23 @@
     <LangVersion>7</LangVersion>
     <RootNamespace>Thorium.Mvc.Tools</RootNamespace>
   </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>$(appveyor_build_version)</Version>
+    <Authors>Thorium Dev Team</Authors>
+    <Company>Thorium Dev Team</Company>
+    <Product>MVC Tools</Product>
+    <PackageId>Thorium.Mvc.Tools</PackageId>
+    <AssemblyVersion>$(appveyor_build_version)</AssemblyVersion>
+    <FileVersion>$(appveyor_build_version)</FileVersion>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Description>Base APi Controller</Description>
+    <Copyright>Copyright</Copyright>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/ThoriumStack/core-mvctools/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/ThoriumStack/core-mvctools</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ThoriumStack/core-mvctools</RepositoryUrl>
+    <PackageReleaseNotes>Release</PackageReleaseNotes>
+  </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.0" />
     <PackageReference Include="MyBucks.Mvc.Models" Version="1.0.2" />
