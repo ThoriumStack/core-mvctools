@@ -1,4 +1,4 @@
-﻿namespace MyBucks.Mvc.Models
+﻿namespace Thorium.Mvc.Models
 {
     public class CreatedResponse<TIdType>
     {

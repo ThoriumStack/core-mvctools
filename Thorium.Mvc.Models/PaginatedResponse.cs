@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MyBucks.Mvc.Models
+namespace Thorium.Mvc.Models
 {
     public class PaginatedResponse
     {

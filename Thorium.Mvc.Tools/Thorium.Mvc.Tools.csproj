@@ -2,13 +2,11 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>7</LangVersion>
+    <RootNamespace>Thorium.Mvc.Tools</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.0" />
-    <PackageReference Include="MyBucks.Core.Model" Version="1.0.29" />
-    <PackageReference Include="MyBucks.Mvc.Models" Version="1.0.2"/>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Model" />
+    <PackageReference Include="MyBucks.Mvc.Models" Version="1.0.2" />
+    <PackageReference Include="Thorium.Core.Model" Version="1.0.2" />
   </ItemGroup>
 </Project>

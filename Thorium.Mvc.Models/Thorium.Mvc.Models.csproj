@@ -2,6 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
+        <RootNamespace>Thorium.Mvc.Models</RootNamespace>
     </PropertyGroup>
 
 </Project>

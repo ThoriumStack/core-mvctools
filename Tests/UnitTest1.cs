@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
-using MyBucks.Core.Model;
 using MyBucks.Mvc.Tools;
+using Thorium.Core.Model;
 using Xunit;
 
 namespace Tests

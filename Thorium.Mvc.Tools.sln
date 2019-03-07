@@ -1,10 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBucks.Mvc.Tools", "MyBucks.Mvc.Tools\MyBucks.Mvc.Tools.csproj", "{EEFF5375-114F-4FA3-B85D-C643B9A28C9C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thorium.Mvc.Tools", "Thorium.Mvc.Tools\Thorium.Mvc.Tools.csproj", "{EEFF5375-114F-4FA3-B85D-C643B9A28C9C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{5CAEC7AC-E653-4A15-AF6A-2A30CFB26CDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBucks.Mvc.Models", "MyBucks.Mvc.Models\MyBucks.Mvc.Models.csproj", "{62B609B2-1D35-48BC-A456-5E798AFCAFF2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thorium.Mvc.Models", "Thorium.Mvc.Models\Thorium.Mvc.Models.csproj", "{62B609B2-1D35-48BC-A456-5E798AFCAFF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
