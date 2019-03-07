@@ -4,9 +4,9 @@ using System.Runtime.InteropServices;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Primitives;
-using MyBucks.Mvc.Models;
 using Thorium.Core.Model;
 using Thorium.Core.Model.Abstractions;
+using Thorium.Mvc.Models;
 
 namespace MyBucks.Mvc.Tools
 {
