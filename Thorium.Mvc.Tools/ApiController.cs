@@ -158,7 +158,7 @@ namespace Thorium.Mvc.Tools
         [NonAction]
         public void OnActionExecuting(ActionExecutingContext context)
         {
-            if (context.HttpContext.Request.Headers.TryGetValue("MyBucks-Context", out StringValues contextStrings))
+            if (context.HttpContext.Request.Headers.TryGetValue("Thorium-Context", out StringValues contextStrings))
             {
                 CurrentContext = string.IsNullOrWhiteSpace(contextStrings.FirstOrDefault()) ? null : contextStrings.FirstOrDefault();
             }
@@ -167,7 +167,7 @@ namespace Thorium.Mvc.Tools
                 CurrentContext = null;
             }
             
-            if (context.HttpContext.Request.Headers.TryGetValue("MyBucks-UserId", out StringValues userIds))
+            if (context.HttpContext.Request.Headers.TryGetValue("Thorium-UserId", out StringValues userIds))
             {
                 CurrentUserId = string.IsNullOrWhiteSpace(userIds.FirstOrDefault()) ? null : userIds.FirstOrDefault();
             }
@@ -175,7 +175,7 @@ namespace Thorium.Mvc.Tools
             {
                 CurrentUserId = null;
             } 
-            if (context.HttpContext.Request.Headers.TryGetValue("MyBucks-TimeZone", out StringValues timeZones))
+            if (context.HttpContext.Request.Headers.TryGetValue("Thorium-TimeZone", out StringValues timeZones))
             {
                 var tz = timeZones.FirstOrDefault();
 
