@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
-using MyBucks.Mvc.Tools;
 using Thorium.Core.Model;
+using Thorium.Mvc.Tools;
 using Xunit;
 
 namespace Tests
@@ -12,25 +12,25 @@ namespace Tests
         public void Test1()
         {
 
-            var apiController = new ApiController();
-
-            var lst = new ListReply<SelectItem<int>>
-            {
-                ResultList = new List<SelectItem<int>>
-                {
-                    new SelectItem<int>
-                    {
-                        Description = "asd",
-                        Id = 1
-                    },
-                    new SelectItem<int>
-                    {
-                        Description = "cxvxcv",
-                        Id = 2
-                    },
-                },
-                ReplyStatus = ReplyStatus.Successful
-            };
+//            var apiController = new ApiController();
+//
+//            var lst = new ListReply<SelectItem<int>>
+//            {
+//                ResultList = new List<SelectItem<int>>
+//                {
+//                    new SelectItem<int>
+//                    {
+//                        Description = "asd",
+//                        Id = 1
+//                    },
+//                    new SelectItem<int>
+//                    {
+//                        Description = "cxvxcv",
+//                        Id = 2
+//                    },
+//                },
+//                ReplyStatus = ReplyStatus.Successful
+//            };
 
           //  var result = apiController.FromReply(lst);
             return;
